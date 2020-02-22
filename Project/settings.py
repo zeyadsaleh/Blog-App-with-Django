@@ -37,7 +37,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'BlogApp',
+    #'BlogApp',
+    'AccountsApp',
 ]
 
 MIDDLEWARE = [
@@ -104,7 +105,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 
 ##to add user
-AUTH_USER_MODEL = 'BlogApp.UserModel'
+AUTH_USER_MODEL = 'AccountsApp.ExtendedUser'
 
 
 # Internationalization
